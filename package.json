@@ -1,0 +1,44 @@
+{
+  "name": "react-redux-babel-webpack-starter",
+  "version": "1.0.0",
+  "description": "This is a starter app using REACT REDUX-FLUX BABEL WEBPACK",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --colors",
+    "serve": "webpack && yarn run dev",
+    "build": "webpack",
+    "test": "mocha"
+  },
+  "repository": "git+https://github.com/levarne/react-redux-babel-webpack-starter.git",
+  "keywords": [
+    "react",
+    "redux",
+    "flux pattern",
+    "babel",
+    "webpack"
+  ],
+  "author": "Levarne Sobotker levarne.sobotker@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/levarne/react-redux-babel-webpack-starter/issues"
+  },
+  "homepage": "https://github.com/levarne/react-redux-babel-webpack-starter#readme",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "css-loader": "^0.28.4",
+    "jshint": "^2.9.5",
+    "jshint-loader": "^0.8.4",
+    "node-sass": "^4.5.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
