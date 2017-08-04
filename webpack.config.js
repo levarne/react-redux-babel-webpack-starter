@@ -17,7 +17,7 @@ module.exports = {
 				], // only files inside src
 				use: [
 					{
-						loader: "jshint-loader"
+						loader: "eslint-loader"
 					}
 				]
 			},

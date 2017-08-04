@@ -4,19 +4,19 @@ This is a starter app using REACT REDUX-FLUX PATTERN BABEL WEBPACK
 
 ### Global Dependencies
 ``` sh
-$cd yarn add babel-cli -g
+$ yarn add babel-cli -g
 ```
 
 ### Setup Project
 ``` sh
-$cd yarn install
+$ yarn install
 ```
 
 ### Run Project
 ``` sh
-$cd yarn run build
+$ yarn run build
 
 or
 
-$cd yarn run serve
+$ yarn run serve
 ```
