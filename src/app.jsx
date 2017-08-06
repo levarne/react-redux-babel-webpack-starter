@@ -54,7 +54,13 @@ class Footer extends React.Component {
 	render() {
 		return (
 			<div>
+<<<<<<< HEAD
 				<h1>{this.props.footer}</h1>
+=======
+				<h1>Header</h1>
+				<h2>Content</h2>
+				<p>This is the content!!!</p>
+>>>>>>> c0c13fa0d5f928e7d0072dab8216267d6c70c8e5
 			</div>
 		);
 	}
