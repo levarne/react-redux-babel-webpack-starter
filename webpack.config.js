@@ -7,10 +7,11 @@ module.exports = {
 		filename: 'build.js',
 		path: path.resolve(__dirname, 'bin')
 	},
+	devtool: 'eval-source-map',
 	module: {
 		rules: [
 			{
-				test: /\.jsx$/,
+				test: /(\.jsx$|\.js$)/,
 				enforce: "pre",
 				include: [
 					path.resolve(__dirname, "src"),
@@ -32,13 +33,15 @@ module.exports = {
 				}]
 			},
 			{
-				test: /\.jsx$/,
+				test: /(\.jsx$|\.js$)/,
 				include: [
 					path.resolve(__dirname, "src"),
 				],
 				loader: 'babel-loader',
 				query: {
-					presets: ['env', 'react']
+					presets: ['env', 'stage-0', 'react'],
+					retainLines: true,
+					cacheDirectory: true
 				}
 			}
 		]
